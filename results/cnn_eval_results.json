@@ -1,0 +1,13 @@
+{
+    "Model": "CNN-only",
+    "Dataset": "COCO val2017",
+    "Images evaluated": 5000,
+    "ImageNet normalization at eval": true,
+    "AP": 2.26,
+    "AP50": 5.69,
+    "AP75": 1.43,
+    "APs": 0.65,
+    "APm": 2.82,
+    "APl": 3.25,
+    "Total Predictions": 495200
+}

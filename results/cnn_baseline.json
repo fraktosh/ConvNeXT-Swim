@@ -1,0 +1,6 @@
+{
+    "model": "cnn_baseline",
+    "status": "smoke_test_completed",
+    "note": "This is a dummy execution to verify architecture and shapes.",
+    "params": 32266324
+}

@@ -1,0 +1,66 @@
+{
+    "CNN-only": {
+        "Model": "CNN-only",
+        "Params": 32266324,
+        "Params_M": 32.27,
+        "Latency_ms": 38.17,
+        "FPS": 26.2,
+        "Peak_Mem_MB": 397.45,
+        "Protocol": {
+            "Batch_size": 1,
+            "Resolution": "640x640",
+            "Device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+            "Warmup_iters": 50,
+            "Measure_iters": 200,
+            "Mixed_precision": true
+        }
+    },
+    "Fixed Swin P4": {
+        "Model": "Fixed Swin P4",
+        "Params": 34041464,
+        "Params_M": 34.04,
+        "Latency_ms": 36.3,
+        "FPS": 27.55,
+        "Peak_Mem_MB": 541.9,
+        "Protocol": {
+            "Batch_size": 1,
+            "Resolution": "640x640",
+            "Device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+            "Warmup_iters": 50,
+            "Measure_iters": 200,
+            "Mixed_precision": true
+        }
+    },
+    "Fixed Swin P3/P4": {
+        "Model": "Fixed Swin P3/P4",
+        "Params": 34487004,
+        "Params_M": 34.49,
+        "Latency_ms": 38.94,
+        "FPS": 25.68,
+        "Peak_Mem_MB": 680.49,
+        "Protocol": {
+            "Batch_size": 1,
+            "Resolution": "640x640",
+            "Device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+            "Warmup_iters": 50,
+            "Measure_iters": 200,
+            "Mixed_precision": true
+        }
+    },
+    "Adaptive routing": {
+        "Model": "Adaptive routing",
+        "Params": 39901810,
+        "Params_M": 39.9,
+        "Latency_ms": 50.5,
+        "FPS": 19.8,
+        "Peak_Mem_MB": 868.14,
+        "Protocol": {
+            "Batch_size": 1,
+            "Resolution": "640x640",
+            "Device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+            "Warmup_iters": 50,
+            "Measure_iters": 200,
+            "Mixed_precision": true
+        }
+    }
+}

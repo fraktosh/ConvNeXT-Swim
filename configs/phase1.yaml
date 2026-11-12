@@ -1,0 +1,12 @@
+model:
+  name: "convnext_tiny"
+  pretrained: true
+  features_only: true
+input:
+  batch_size: 1
+  channels: 3
+  height: 640
+  width: 640
+profiling:
+  warmup_iters: 10
+  measure_iters: 50

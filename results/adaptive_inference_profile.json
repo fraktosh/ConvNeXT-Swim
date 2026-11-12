@@ -1,0 +1,11 @@
+{
+    "model": "Adaptive-Masked",
+    "batch_size": 1,
+    "warmup_iters": 50,
+    "measure_iters": 200,
+    "forward_latency_ms": 36.68,
+    "e2e_latency_ms": 37.61,
+    "inference_fps": 26.59,
+    "peak_inference_memory_mb": 294.3,
+    "FLOPs": "17.4G (Theoretical: ~14.5G)"
+}

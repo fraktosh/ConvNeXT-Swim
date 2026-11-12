@@ -1,0 +1,14 @@
+[
+    {
+        "variant": "P4",
+        "params": 34041464,
+        "max_memory_mb": 1606.11,
+        "total_time_s": 1.8
+    },
+    {
+        "variant": "P3P4",
+        "params": 34487004,
+        "max_memory_mb": 1708.81,
+        "total_time_s": 0.88
+    }
+]

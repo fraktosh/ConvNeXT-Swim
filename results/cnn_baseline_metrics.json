@@ -1,0 +1,9 @@
+{
+    "Model": "CNN-ConvNeXt-Tiny-Baseline",
+    "Params": 32266324,
+    "GPU memory": 1537.68,
+    "FPS": 2.67,
+    "Latency": 374.08,
+    "FLOPs": "12.5G",
+    "total_time_s": 448.89
+}

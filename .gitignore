@@ -1,0 +1,41 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Environments
+venv/
+env/
+.env
+
+# Testing & Agent Caches
+.pytest_cache/
+.vscode/
+.idea/
+.agents/
+
+# Datasets & Archives
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Model Weights & Checkpoints (Exceeds GitHub 100MB limit)
+checkpoints/
+checkpoints_old_defective/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Large Temporary Dumps & Defective Archives
+logs/
+results_old_defective/
+*_temp_coco_results.json
+
+# Media & Extraneous Files
+*.pdf
+*.aac
+*.mp4
+*.mkv

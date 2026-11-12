@@ -1,0 +1,11 @@
+{
+    "model": "Fixed-CNN-Swin-P4",
+    "batch_size": 1,
+    "warmup_iters": 50,
+    "measure_iters": 200,
+    "forward_latency_ms": 28.72,
+    "e2e_latency_ms": 30.13,
+    "inference_fps": 33.19,
+    "peak_inference_memory_mb": 255.11,
+    "FLOPs": "14.2G"
+}
